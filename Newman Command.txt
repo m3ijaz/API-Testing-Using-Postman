@@ -1,0 +1,16 @@
+Command::
+
+npm Install:
+npm install -g newman 
+
+
+
+Sample Command:
+
+newman run Flight01.postman_collection.json -e m3Environment.postman_environment.json
+
+
+
+Report generate:
+
+newman run Flight01.postman_collection.json -e m3Environment.postman_environment.json  -r cli,htmlextra --reporter-htmlextra-darkTheme
